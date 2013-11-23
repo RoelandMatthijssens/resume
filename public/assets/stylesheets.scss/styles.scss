@@ -1,0 +1,96 @@
+@font-face {
+    font-family: HoneyScript;
+    src: url('../font/HoneyScript-Light.ttf');
+}
+
+@font-face {
+    font-family: ACAPPELLA;
+    src: url('../font/ACAPPELLA.ttf');
+}
+@font-face {
+    font-family: asongforjennifer;
+    src: url('../font/asongforjennifer.ttf');
+}
+
+$top-font: asongforjennifer;
+
+@import "zocial";
+@import "bootstrap";
+
+body { color: #333; background-color: #444;}
+.content {background-color: #fff;}
+.header {padding:70px 40px 0 40px; background-image: url("../images/bg.png")}
+.header-inner {padding-bottom:30px; ;border-bottom: 1px solid #ddd;}
+.main {padding:40px;}
+.name-text {font-size: 36px; margin-bottom:10px; margin-top: 30px; line-height: 36px;}
+.major-text {font-size: 18px; margin-bottom: 10px;}
+img.img-polaroid {width: 130px; height: 130px; height: auto; vertical-align:middle;}
+img.img-qrtag {width: 100%; height: auto; max-width: 100px;}
+.my-info {text-align:center;}
+.align-right {text-align: right;}
+.margin-top-5 {margin-top:5px;}
+.margin-top-10 {margin-top:10px;}
+.margin-bottom-2 {margin-bottom:2px;}
+.margin-bottom-5 {margin-bottom:5px;}
+.margin-bottom-10 {margin-bottom:10px;}
+.section-title {  font-size: 20px; font-style: italic; padding-bottom: 5px;}
+.section-body { }
+.seperator {border-bottom: 1px solid #ddd; margin: 20px 0 30px 0;}
+.seperator-line {border-bottom: 0px solid #eee; margin: 2px 0 2px 0;}
+.inner-seperator {margin:10px 0 20px 0; border-bottom: 1px dashed #ddd;}
+.section-body ul {margin-left: 17px;}
+.subject-name { font-size: 16px; font-weight: bold; color: #2e4dbf; margin-bottom: 5px;}
+.pdf {position: fixed; top:189px; margin-left: 305px;width: 50px; display:block; height: 50px; background-image: url("../images/pdf_icon.png"); cursor: pointer; margin-top:10px;}
+.pdf-attachment {width: 36px; height: 34px; cursor: pointer;vertical-align: top;}
+
+
+.item-name {font-size: 16px; font-weight: bold; color: #2e4dbf;}
+.item-desc {font-size:14px; font-style: italic;}
+.item-period {border: 1px solid #ddd; font-size: 12px; padding:2px 5px 2px 5px;text-align:right;display:inline;}
+.galery a img {
+	display: block;
+	margin-bottom: 4px;
+	width: 75px;
+	height: 56px;
+}
+
+.galery a {
+display: inline-block;
+}
+
+@import "bootstrap-responsive";
+@media print{
+	/*@page {size: landscape}*/ 
+	.header {padding:40px 40px 0 40px; background-image: url("../images/bg.png")}
+	.no_print {display:none;}
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+		width: 100%;
+	}
+	img.img-polaroid {margin-top: 20px;}
+	body { background-color: transparent;}
+	abbr[title], abbr[data-original-title] {
+		cursor: help;
+		border-bottom: 0px dotted #999;
+	}
+	a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+	a[href^="http://"] {color:#000;}
+}
+
+@media (min-width: 1200px){
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+		width: 980px;
+	}
+}
+
+
+@media (max-width: 979px) and (min-width: 768px){
+	img.img-polaroid {margin-top: 22px;}
+	.pdf {margin-top:10px;margin-left: 220px;}
+	
+}
+
+@media (max-width: 767px){
+	body {padding: 0 0 0 0;}
+	.my-info {float: left;}
+	.pdf {margin-top:10px;margin-left: 300px;position:absolute;}
+}

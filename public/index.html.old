@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Curriculum Vitae of Rik Vanmechelen">
+	<meta name="author" content="Rik Vanmechelen">
+		
+	<!-- Styles --> 
+	<link href="assets/stylesheets/styles.css" rel="stylesheet">
+	<link href="assets/stylesheets/styles.css" rel="stylesheet" media="print">
+	
+	
+	<script src="assets/javascripts/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/javascripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="assets/javascripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/javascripts/script.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script>
+	jQuery(document).ready(function() {
+		jQuery('[rel="tooltip"]').tooltip({trigger : 'hover'});	
+	})
+	</script>
+</head>
+<body>
+
+	<div class="platform">
+
+		<div class="header">
+
+			<div class="row">		
+
+				<div class="span">
+					<img src="http://www.gravatar.com/avatar/315c0a4461f2453e3c0c37638c4da505" class="img-polaroid">
+				</div>
+				<!--/photo-->
+
+				<div class="span margin-bottom-5">
+					<div class="name-text">Rik Vanmechelen</div>
+					<div class="major-text"><i>Software Engineer in Web and Information Systems</i></div>						
+				</div>
+				<!--/name-->
+
+				<div class="my-info pull-right">
+					<div class="span">
+						<address class="margin-bottom-5">
+							Kroonlaan<br>
+							1050 Elsene <br>
+							Belgium
+						</address>							
+						<abbr rel="tooltip" data-original-title="Phone">P:</abbr>&nbsp;&nbsp;+&#051;&#050;&#052;&#057;&#057;&#049;&#055;&#048;&#057;&#056;&#057;<br>
+						<abbr rel="tooltip" data-original-title="Email">E:</abbr>&nbsp;&nbsp;<a href="mailto:&#114;&#105;&#107;&#046;&#118;&#097;&#110;&#109;&#101;&#099;&#104;&#101;&#108;&#101;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#114;&#105;&#107;&#046;&#118;&#097;&#110;&#109;&#101;&#099;&#104;&#101;&#108;&#101;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a><br>
+						<abbr rel="tooltip" data-original-title="Website">W:</abbr>&nbsp;<a href="www.r-vm.com">www.r-vm.om</a><br>
+						<div class="margin-top-5 margin-bottom-5">
+							<a href="http://be.linkedin.com/pub/rik-vanmechelen/1b/769/a44" rel="tooltip" data-original-title="LinkedIn"><img src="assets/images/linkedin.png" alt="LinkedIn" width="20"/></a>&nbsp;
+						<!--
+							<a href="#" rel="tooltip" data-original-title="Twitter"><img src="assets/images/twitter.png" alt="Twitter" width="20"/></a>&nbsp;
+							<a href="#" rel="tooltip" data-original-title="Facebook"><img src="assets/images/facebook.png" alt="Facebook" width="20"/></a>&nbsp;
+						-->	
+						<a href="https://plus.google.com/108088058095389647365" rel="tooltip" data-original-title="Google Plus"><img src="assets/images/googleplus.png" alt="Google Plus" width="20"/></a>
+						</div>
+					</div>
+					<div class="my-info">
+						<img src="assets/images/qrcode.png" width="75" rel="tooltip" data-original-title="Save my vCard">
+					</div>				
+
+					<!-- <a class="pdf" href="cv.pdf" target="_blank" rel="tooltip" data-original-title="Download as PDF"></a>	-->	
+
+				</div>
+				<!--/contacts-->
+
+			</div>
+
+		</div><!-- /header -->
+
+
+		<div class="main">  	
+<!--
+			<div class="row">
+				<div class="span section-title">
+					Objective
+				</div>
+				<div class="span section-body">
+					Challenging career opportunities, which would help me to utilize my academic background, that assist me to gain experience, employ my excellent interpersonal skills, and enable me to make a positive contribution.
+				</div>
+			</div>
+-->
+			<!-- /objective-->
+
+			<!-- /education-->
+<!--
+			<div class="seperator"></div>
+-->
+			<div class="row">
+				<div class="span section-title">
+					Education
+				</div>
+
+				<div class="span section-body">
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">MSc Applied Sciences and Engineering: Computer Science </div>
+								<div class="item-desc">Vrije Universiteit Brussel (VUB), Brussels, Belgium</div>
+							</div>	
+							<div class="item-period pull-right span">2011 - (expected july) 2013</div>
+						</div>
+						<div class="margin-top-10">	
+							<ul>
+								<li>Thesis: round-trip engineering between code and ontology</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="inner-seperator"></div>
+					
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Bachelor of Science in the Computer Science </div>
+								<div class="item-desc">Vrije Universiteit Brussel (VUB), Brussels, Belgium</div>
+							</div>	
+							<div class="item-period pull-right span">2008 - 2012</div>
+						</div>
+						<div class="margin-top-10">	
+							<ul>
+								<li>Thesis: iGesture: Implementation and Evaluation of Advanced Gesture Detection Algorithms</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="inner-seperator"></div>
+					
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name subject-name">Certificate in Business Management </div>
+								<div class="item-desc">Katholieke Centrumscholen Sint-Truiden, Sint-Truiden, Belgium</div>
+							</div>	
+							<div class="item-period pull-right span">2007</div>
+						</div>
+					</div>
+					
+					<div class="inner-seperator"></div>
+					
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Flemish ICT certificate (VIA) </div>
+								<div class="item-desc">Katholieke Centrumscholen Sint-Truiden, Sint-Truiden, Belgium</div>
+							</div>	
+							<div class="item-period pull-right span">2007</div>
+						</div>
+					</div>
+
+				</div>	
+			</div>	        	
+			<!-- /education-->
+
+			<div class="seperator"></div>
+
+			<div class="row">
+				<div class="span section-title">
+					Skills
+				</div>
+
+				<div class="span section-body">
+
+					<div class="clearfix">
+
+						<div class="subject-name">Technical</div>					        	
+						<ul>
+							<li>Software Engineering in C/C++, Java, .NET, PHP, Prolog, Haskell, Smalltalk, etc...</li>
+							<li>Good knowledge of program language Engineering principles</li>
+							<li>Database / Ontology Engineering.</li>
+							<li>System Administration for Linux OS(Fedora, CentOS, RedHat, Ubuntu).</li>
+							<li>Web Development in HTML/HTML5, CCS/CCS3, JavaScript.</li>
+							<li>Web Development in Ruby on Rails.</li>
+							<li>Mobile Application Development for Android and iOS(iPhone, iPad and iPod).</li>
+						</ul>
+
+						<div class="margin-bottom-10"></div>
+
+						<div class="subject-name">Languages</div>
+						<ul>
+							<li>English - Fluent</li>
+							<li>Dutch - Native</li>
+							<li>French  - Moderate</li>
+						</ul>
+
+					</div>	
+
+				</div>	
+			</div>	
+
+			<!-- /additional_education-->
+
+			<div class="seperator"></div>
+			<div class="row">
+				<div class="span section-title">
+					Additional Education
+				</div>
+
+				<div class="span section-body">
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Student Exchange Program - USA  </div>
+								<div class="item-desc">WEP - World Exchange Program</div>
+							</div>	
+							<div class="item-period pull-right span">2007 - 2008</div>
+						</div>
+					</div>
+
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Attestation head counselor of the Flemish government</div>
+								<div class="item-desc">Language camps - Clipvakanties</div>
+							</div>	
+							<div class="item-period pull-right span">2009</div>
+						</div>
+					</div>
+
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Soccer Referee </div>
+								<div class="item-desc">Royal Belgian Football Association</div>
+							</div>	
+							<div class="item-period pull-right span">2004</div>
+						</div>
+					</div>
+
+				</div>	
+			</div>	        	
+			<!-- /additional_education-->
+
+
+			<!-- Work Experience-->
+			
+			<div class="seperator"></div>
+
+
+			<div class="row">
+				<div class="span section-title">
+					Work Experience
+				</div>
+
+				<div class="span section-body">
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Lead Developer Tyca</div>
+								<div class="item-desc">Ruby on Rails on development</div>
+							</div>	
+							<div class="item-period pull-right span">2011 - 2012</div>
+						</div>
+					</div>
+
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">System Administrator Vesalius College</div>
+								<div class="item-desc">Admin of the public computer network</div>
+							</div>	
+							<div class="item-period pull-right span">2009 - present</div>
+						</div>
+					</div>
+					
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Clipvakanties</div>
+								<div class="item-desc">Counselor and Head Counselor</div>
+							</div>	
+							<div class="item-period pull-right span">2007 - 2010</div>
+						</div>
+					</div>
+					
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Royal Belgian Football Association</div>
+								<div class="item-desc">Referee</div>
+							</div>	
+							<div class="item-period pull-right span">2004 - 2010</div>
+						</div>
+					</div>
+					
+					<div class="inner-seperator"></div>
+
+					<div class="clearfix">
+						<div class="row">
+							<div class="span">
+								<div class="item-name">Tenneco Automotive</div>
+								<div class="item-desc">Intern, Local Support</div>
+							</div>	
+							<div class="item-period pull-right span">feb. 2007</div>
+						</div>
+					</div>
+				</div>	
+			</div>	        	
+			
+			<div class="seperator"></div>
+
+			<div class="row">
+				<div class="span section-title">
+					Interests
+				</div>
+				<div class="span section-body">
+					Soccer, travelling, high tech gadgets, wall climbing, infogroep.be.	
+				</div>
+			</div>
+			
+			<div class="seperator"></div>
+	<!--
+			<div class="seperator"></div>
+
+
+
+<div class="row">
+<div class="span section-title">
+Awards & Certificates
+</div>
+<div class="span section-body">
+<ul>
+<li>2008 Certificate A in IT.</li>
+<li>2nd prize winner in National Programming Contest, 2012.</li>
+<li>3nd prize winner in State Math Olympiad, 2012.</li>
+					</ul>
+				</div>	
+			</div>
+-->
+			<!-- /awards-->
+<!--
+			<div class="seperator"></div>
+
+			<div class="row">
+				<div class="span section-title">
+					Interests
+				</div>
+				<div class="span section-body">
+					Swimming, travelling, cooking, photography, fishing.	
+				</div>
+			</div>
+-->
+			<!-- /interests-->
+<!--
+			<div class="seperator"></div>
+
+			<div class="row">
+				<div class="span section-title">
+					Requests
+				</div>
+				<div class="span section-body">
+					Available upon request.
+				</div>
+			</div>
+-->
+			<div class="clearfix margin-bottom-10 pull-right no_print">
+				<a class="dotted" href="javascript:;"
+				onclick="jQuery('html,body').animate({scrollTop: jQuery('.header').offset().top}, 'slow');"
+				>	
+				top
+			</a>
+		</div>
+
+	</div> <!-- /main -->
+
+</div> <!-- /container -->
+</body>
+</html>	
+
